@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 40px 77px;
+  font-family: 'monospace', sans-serif;
+  background: #fff;
+  color: #4F4F4F;
+  margin: 0 auto;
+}
+
+header h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main .col-12 {
+  padding-top: 200px;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .col-12 .image {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .col-12 .image img {
+  width: 85%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+main .col-12 .info {
+  width: 40%;
+}
+
+main .col-12 .info h1 {
+  font-family: monospace;
+  font-size: 64px;
+  line-height: 80px;
+  margin-bottom: 36px;
+  color: #4F4F4F;
+  font-weight: bold;
+}
+
+main .col-12 .info p {
+  font-family: monospace;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  font-weight: normal;
+  margin-bottom: 64px;
+  color: #4F4F4F;
+}
+
+main .col-12 .info button {
+  background: #333333;
+  border: none;
+  padding: 24px 43px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.parrafo {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 120px;
+  color: #333333;
+}
+
+@media (max-width: 980px) {
+  main .col-12 {
+    padding: 120px 10px;
+  }
+  main .col-12 .image {
+    width: 100%;
+  }
+  main .col-12 .image img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  main .col-12 .info {
+    width: 40%;
+  }
+  main .col-12 .info h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  main .col-12 .info p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 5px 5px;
+  }
+  body header h2 {
+    margin: 10px;
+  }
+  body main .col-12 {
+    margin: 0 auto;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body main .col-12 .image {
+    width: 85%;
+    padding-top: 50px;
+  }
+  body main .col-12 .image img {
+    width: 100%;
+  }
+  body main .col-12 .info {
+    width: 100%;
+    padding-top: 60px;
+  }
+  body main .col-12 .info h1 {
+    font-size: 48px;
+    line-height: 70px;
+  }
+  body main .col-12 .info p {
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .parrafo {
+    padding-top: 80px;
+  }
+}
+/*# sourceMappingURL=app.css.map */
